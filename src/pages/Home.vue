@@ -1,5 +1,5 @@
 <template>
-  <TheHeader>{{page}}</TheHeader>
+  <TheHeader>{{ page }}</TheHeader>
   <main class="main">
     <div class="container">
       <ul>
@@ -25,31 +25,33 @@ import TheHeader from "@/components/TheHeader.vue";
 export default {
   name: "TheHome",
   props: {
-    page: String
+    page: String,
   },
   components: { TheHeader },
 };
 </script>
 
 <style>
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container ul {
-    background: #aa17ee;
-    border-radius: 12px;
-    padding: 15px;
-    width: 350px;
+  background: #aa17ee;
+  border-radius: 12px;
+  padding: 15px;
+  width: 350px;
 }
 .container a {
-    color: #fff;
-    transition: .4s;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.4s;
 }
 
-.container a:hover{
-    
+.container a:hover {
+  color: rgb(233, 231, 231);
+  font-size: 18px;
 }
 </style>

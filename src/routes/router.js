@@ -5,22 +5,22 @@ const routes = [
   {
     path: "/",
     name: "TheHome",
-    component: <HomeVue page="home"/>,
+    component: <HomeVue page="home" />,
   },
   {
     path: "/sobre",
     name: "TheSobre",
-    component: <HomeVue page="sobre"/>,
+    component: <HomeVue page="sobre" />,
   },
   {
     path: "/contato",
     name: "TheContato",
-    component: <HomeVue page="contato"/>,
+    component: <HomeVue page="contato" />,
   },
   {
     path: "/localizacao",
     name: "TheLocalizacao",
-    component: <HomeVue page="localizacao"/>,
+    component: <HomeVue page="localizacao" />,
   },
 ];
 
